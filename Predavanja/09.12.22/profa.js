@@ -1,19 +1,6 @@
-function korisnickiUnos() {
-    let unos = prompt("Unesi vrijednost sati i minuta 00-24");
-    if (unos >= 18) {
-        poruka = ("dobro veče");
-        alert(poruka);
-    }
+let nacionalnost = 'katolik';
+let person = 'Jasa';
+let rjesenje = nacionalnost + person;
 
-    else if (unos <= 18) {
-        poruka = ("dobar dan");
-        alert(poruka);
-    }
-    console.log(poruka);
-};
-
-
-
-
-
-
+console.log(rjesenje);
+console.log('Ali u kurcu mom');
