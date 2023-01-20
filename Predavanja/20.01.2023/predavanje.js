@@ -1,5 +1,5 @@
-function onBrojevniUnos () {
-  let brojevniUnos = brojevniUnosInput.value
+function onBrojevniUnos() {
+  let brojevniUnos = brojevniUnosInput.value;
   let message = ''
   if (brojevniUnos == '') {
     message = 'Niste unijeli ništa'
