@@ -2,23 +2,21 @@
 <html lang="en">
 
 <head>
+    <title>Zadatak 20.01.2023.</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="predavanje.js"></script>
-    <title>Document</title>
 </head>
 
 <body>
-    <h1>Ovdje ćemo pokazati kako kroz JS validirati formu</h1>
-    <span>
-        <input type="text" name="brojevniUnosInput" onsubmit="onBrojevniUnos()">
+    <h1>ZADATAK 1</h1>
+    <form name="brojevniUnos" onsubmit="onSubmitBroj()" method="post" action="">
+        Unesi broj od 1 do 23 <br>
+        <input type="text" name="inputNumber">
+        <button onclick="onSubmitBroj()">Dalje</button>
+    </form>
 
 
-    </span>
-    <p id=" messageParagraf">
-
-    </p>
 
 </body>
 
