@@ -36,24 +36,25 @@
 </head>
 
 <body>
+  <script type='text/javascript' src="fortuneTeller.js"> </script>
+
   <div class="mainBox container-fluid">
     <div class="row w-100 h-100 gap-3">
-      <div class="col w-50 h-100 d-flex flex-column align-items-center justify-content-center">
+      <div class="col  rainbow w-50 h-100 d-flex flex-column align-items-center justify-content-center">
         <div class="input-group mb-3">
           <p style="color:white; font-size: 20px;" class="mb-3">Type your name and surname</p>
-          <input type="text" placeholder="First name" class="form-control" id="inputName">
-          <input type="text" placeholder="Last name" class="form-control" id="inputSurname">
-          <p style="color: white; font-size: 20px;" class="mt-3">Concentrate on your question and</p>
+          <input type="text" placeholder="First name" class="form-control w-75 m-3" id="inputName">
+          <input type="text" placeholder="Last name" class="form-control w-75 m-3" id="inputSurname">
+          <p style="color: white; font-size: 20px;" class="mt-3">Ask me a question and</p>
         </div>
         <button onclick="fortuneTell()" type="button" class="btn btn-primary btn-lg ">Click for fortune telling</button>
         <span id="pointer">>>>>>>>>>>>></span>
       </div>
-      <div class="col w-50 h-100" id="fortuneTextBox">
+      <div class="col rainbow w-50 h-100 " id="fortuneTextBox">
 
       </div>
     </div>
   </div>
-  <script type='text/javascript' src="fortuneTeller.js"> </script>
 
 </body>
 
